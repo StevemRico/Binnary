@@ -1,0 +1,133 @@
+.Link{
+  color: white;
+  text-decoration: none;
+}
+.sidemenu-menu-expanded {
+  background: var(--header-bg);
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  top: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+.sidemenu-menu-expanded .sidemenu-header {
+  font-size: 30px;
+  display: flex;
+  padding: 15px;
+  color: white;
+  transition: 0.5s;
+}
+.sidemenu-menu-expanded .sidemenu-header span {
+  margin-top: -2%;
+  margin-left: 5%;
+  transition: 0.5s;
+  /* display: none; */
+}
+.sidemenu-menu-expanded .sidemenu-items {
+  padding: 15px;
+  font-size: 30px;
+  color: white;
+  transition: 0.5s;
+}
+.sidemenu-menu-expanded .sidemenu-items > .sidemenu-profile,
+.sidemenu-home,
+.sidemenu-search,
+.sidemenu-messages,
+.sidemenu-notifications,
+.sidemenu-videos,
+.sidemenu-store {
+  display: flex;
+  padding: 25px 0;
+  transition: 0.5s;
+}
+.sidemenu-menu-expanded .sidemenu-items .sidemenu-profile span,
+.sidemenu-home span,
+.sidemenu-search input,
+.sidemenu-messages span,
+.sidemenu-notifications span,
+.sidemenu-videos span,
+.sidemenu-store span {
+  color: white;
+  margin-top: -2%;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+.sidemenu-menu-expanded .sidemenu-logout{
+  display: flex;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+  position: absolute;
+  bottom: 10px;
+  transition: 0.5s;
+}
+.sidemenu-menu-expanded .sidemenu-logout span{
+  color: white;
+  margin-top: -2%;
+  margin-left: 5%;
+  transition: 0.5s;
+}
+.sidemenu-menu-collapsed {
+  background: var(--header-bg);
+  position: fixed;
+  height: 100%;
+  width: 60px;
+  top: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+.sidemenu-menu-collapsed .sidemenu-header {
+  font-size: 30px;
+  display: flex;
+  padding: 15px;
+  color: white;
+  transition: 0.5s;
+}
+.sidemenu-menu-collapsed .sidemenu-header span {
+  margin-top: -15%;
+  margin-left: 5%;
+  color: transparent;
+  transition: 0.5s;
+}
+.sidemenu-menu-collapsed .sidemenu-items {
+  padding: 15px;
+  font-size: 30px;
+  color: white;
+  transition: 0.5s;
+}
+.sidemenu-menu-collapsed .sidemenu-items > .sidemenu-profile,
+.sidemenu-home,
+.sidemenu-search,
+.sidemenu-messages,
+.sidemenu-notifications,
+.sidemenu-videos,
+.sidemenu-store {
+  display: flex;
+  padding: 25px 0;
+  transition: 0.5s;
+}
+.sidemenu-menu-collapsed .sidemenu-items .sidemenu-profile span,
+.sidemenu-home span,
+.sidemenu-search input,
+.sidemenu-messages span,
+.sidemenu-notifications span,
+.sidemenu-videos span,
+.sidemenu-store span {
+  transition: 0.5s;
+  color: transparent;
+  display: none;
+}
+.sidemenu-menu-collapsed .sidemenu-logout{
+  display: flex;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
+  position: absolute;
+  bottom: 10px;
+  transition: 0.5s;
+}
+.sidemenu-menu-collapsed .sidemenu-logout span{
+  display: none;
+  transition: 0.5s;
+}

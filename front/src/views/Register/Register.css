@@ -1,0 +1,48 @@
+.RegisterWrapper{
+    position:relative;
+    margin: 8% auto;
+    width: 500px;
+    height: 430px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.33);
+  }
+  .Register-form-group{
+    width:100%;
+    margin-bottom: 10px;
+  }
+  .Register-form-group input[type="email"],
+  .Register-form-group input[type="text"],
+  .Register-form-group input[type="password"]{
+    /* width: calc(50% - 22px); */
+    width: 80%;
+    height:45px;
+    outline: none;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    border-radius: 2px;
+    color: #333;
+    font-size:0.8rem;
+    -webkit-transition:all 0.1s linear;
+    -moz-transition:all 0.1s linear;
+    transition:all 0.1s linear;
+  }
+  .Register-form-group input:focus{
+    border-color: #358efb;
+  }
+  .Register-form-group button{
+    /* width:50%; */
+    width: 85%;
+    background-color: rgb(97, 87, 181);
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 14px 0;
+    border-radius: 2px;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,31 @@
+.Profile{
+  margin-left: 60px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+.ProfileWrapper{
+    width: 90%;
+    background: wheat;
+    padding: 30px;
+}
+.Profile-img{
+    padding: 20px;
+    background: #CCC;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+}
+.Profile-img img{
+  border-radius: 15px;
+  width: 100%;
+  height: auto;
+}
+@supports(object-fit: cover){
+    .Profile-img img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
